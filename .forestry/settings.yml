@@ -9,7 +9,7 @@ sections:
   label: pages
   create: documents
   match: "**/*"
-  new_doc_ext: tsx
+  new_doc_ext: ".tsx"
 - type: document
   path: src/website-config.ts
   label: config
