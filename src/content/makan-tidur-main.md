@@ -2,9 +2,8 @@
 layout: post
 title: Makan Tidur Main
 author:
-- WilFauzy
-tags:
-- catatan
+- Ghost
+tags: []
 image: "/img/alex-knight-326705-unsplash.jpg"
 date: 2021-03-07T03:00:00Z
 draft: false
