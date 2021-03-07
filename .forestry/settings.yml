@@ -25,7 +25,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: author.yml tag.yml
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - post
 upload_dir: src/content/img
