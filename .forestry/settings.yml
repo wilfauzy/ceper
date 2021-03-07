@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: src/website-config.ts
+  label: config
+  match: "**/*"
+- type: document
   path: src/content/tag.yml
   label: tag
 - type: document
@@ -16,7 +20,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: author.yml tag.yml
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - post
 upload_dir: src/content/img
