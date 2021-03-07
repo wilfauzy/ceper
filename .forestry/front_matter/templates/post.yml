@@ -26,3 +26,5 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+pages:
+- src/content/makan-tidur-main.md
