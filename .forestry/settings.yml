@@ -9,11 +9,10 @@ sections:
   label: pages
   create: documents
   match: "**/*"
-  new_doc_ext: ".ts"
+  new_doc_ext: tsx
 - type: document
   path: src/website-config.ts
   label: config
-  match: "**/*"
 - type: document
   path: src/content/tag.yml
   label: tag
